@@ -1,0 +1,33 @@
+{
+    "name": "rebing0512/ocr",
+    "description": "Logging for PHP 7.0.0",
+    "type": "project",
+    "license": "MIT",
+    "version": "v0.1.2",
+    "authors": [
+        {
+            "name": "rebing0512",
+            "email": "rebing@aliyun.com"
+        }
+    ],
+    "minimum-stability": "dev",
+     "repositories": [{
+        "type": "composer",
+        "url": "https://packagist.org/packages/rebing0512/ocr"
+    }],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rebing0512\\Ocr\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rebing0512\\Geohash\\ServiceProvider"
+            ]
+        }
+    }
+}
