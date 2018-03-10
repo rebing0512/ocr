@@ -2,9 +2,7 @@
     "name": "rebing0512/ocr",
     "type": "library",
     "description": "ocr library for php",
-    "keywords": [
-        "ocr"
-    ],
+    "keywords": ["ocr"],
     "homepage": "https://github.com/rebing0512/ocr",
     "license": "MIT",
     "authors": [
