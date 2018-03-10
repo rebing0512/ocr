@@ -13,12 +13,14 @@ class ServiceProvider extends BaseServiceProvider
     protected $defer = false;
     public function boot()
     {
+        // this for views
         $this->loadViewsFrom(realpath(__DIR__.'/resources/views'), 'rebing0512.ocr');
+        // this for route
         $this->setupRoutes($this->app->router);
-//        // this for conig
-//        $this->publishes([
-//            __DIR__.'/config/myPackage.php' => config_path('myPackage.php'),
-//        ]);
+        // this for conig
+        $this->publishes([
+            __DIR__.'/config/rebing0512_ocr.php' => config_path('rebing0512_ocr.php'),
+        ]);
     }
 
     /**
@@ -35,12 +37,12 @@ class ServiceProvider extends BaseServiceProvider
         });
     }
 
-//    public function register()
-//    {
-//        $this->registerContact();
-//        config([
-//            'config/myPackage.php',
-//        ]);
-//    }
+    public function register()
+    {
+        $this->registerContact();
+        config([
+            'config/rebing0512_ocr.php',
+        ]);
+    }
 
 }

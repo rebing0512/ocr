@@ -1,3 +1,8 @@
 <?php
 
-Route::get('test', 'TestController@index');
+
+Route::group([
+    'prefix' =>'ocr'
+],function(){
+    // Route::post("index","OcrController@index");
+});
