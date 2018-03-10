@@ -1,6 +1,6 @@
 {
     "name": "rebing0512/ocr",
-    "description": "Logging for PHP 7.0.0",
+    "description": "Ocr library for php",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -15,6 +15,7 @@
         "url": "https://packagist.org/packages/rebing0512/ocr"
     }],
     "require": {
+        "php": ">=5.6.4",
         "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
