@@ -39,7 +39,7 @@ class ServiceProvider extends BaseServiceProvider
 
     public function register()
     {
-        $this->registerContact();
+
         config([
             'config/rebing0512_ocr.php',
         ]);
