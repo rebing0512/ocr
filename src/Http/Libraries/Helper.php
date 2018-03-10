@@ -3,7 +3,7 @@ namespace Rebing0512\Ocr\Libraries;
 
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
-use Rebing0512\Ocr\Controllers\Ocr\AipOcr;
+use Rebing0512\Ocr\Controllers\AipOcr;
 
 use MBCore\Wechat\Libraries\Helper as Wechat;
 
