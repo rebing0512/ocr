@@ -21,10 +21,7 @@
     "autoload": {
         "psr-4": {
             "Rebing0512\\Ocr\\": "src/"
-        },
-        "files": [
-            "app/Global/functions.php"
-        ]
+        }
     },
     "extra": {
         "laravel": {
