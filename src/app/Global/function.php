@@ -1,5 +1,5 @@
 <?php
 
-function test(){
+function globalFunction(){
     return 'Welcome RB Global Function';
 }
