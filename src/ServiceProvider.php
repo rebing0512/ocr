@@ -26,7 +26,7 @@ class ServiceProvider extends BaseServiceProvider
             mkdir(realpath(__DIR__.'/app/Global'));
         }
         $this->publishes([
-            __DIR__.'/app/Global/function.php' => realpath(__DIR__.'/app/Global'),
+            __DIR__.'/app/Helper/function.php' => realpath(__DIR__.'/app/Global'),
         ]);
     }
 
