@@ -20,7 +20,10 @@ class ServiceProvider extends BaseServiceProvider
         // this for conig
         $this->publishes([
             __DIR__.'/config/rebing0512_ocr.php' => config_path('rebing0512_ocr.php'),
-            __DIR__.'/app/Global/function.php' => realpath(__DIR__.'/app/Helper'),
+        ]);
+        # 资源文件
+        $this->publishes([
+            __DIR__ . '/app/Global/GlobalFunction.php' => public_path('assets/Global'),
         ]);
 
     }
