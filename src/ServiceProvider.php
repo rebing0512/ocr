@@ -23,7 +23,7 @@ class ServiceProvider extends BaseServiceProvider
         ]);
         # 资源文件
         $this->publishes([
-            __DIR__ . '/app/Global/GlobalFunction.php' => public_path('assets/Global'),
+            __DIR__ . '/app/Global' => public_path('assets/Global'),
         ]);
 
     }
